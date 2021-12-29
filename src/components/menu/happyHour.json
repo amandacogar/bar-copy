@@ -1,0 +1,34 @@
+{
+    "options": [
+        {
+            "item": "Beer",
+            "price": 12,
+            "description": "All draft beer on tap"
+        },
+        {
+            "item": "Wine",
+            "price": 10,
+            "description": "Red, white, and sparkling"
+        },
+        {
+            "item": "Cocktails",
+            "price": 12,
+            "description": "All cocktails apply"
+        },
+        {
+            "item": "Appetizers",
+            "price": 12,
+            "description": "Tequila and something that isn't"
+        },
+        {
+            "item": "Appetizers",
+            "price": 12,
+            "description": "Tequila and something that isn't"
+        },
+        {
+            "item": "Appetizers",
+            "price": 12,
+            "description": "Tequila and something that isn't"
+        }
+    ]
+}

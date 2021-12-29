@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&family=Nothing+You+Could+Do&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+
+/* Common Styles */
+.section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 80%;
+  background-color: black;
+  position: absolute;
+  margin-top: 5rem;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+}
+
+#landing-image {
+  height: 100%;
+  width: 100%;
+}
+
+.page-heading {
+  font-size: 4rem;
+  font-family: "Nothing You Could Do";
+  text-align: center;
+  padding: 0.5rem;
+}
+/* End of Common Styles */
+
+/* Navigation */
+#navbar {
+  background-color: transparent;
+}
+
+.me-auto {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+a.nav-link {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Raleway";
+}
+
+.nav-link:hover {
+  text-shadow: 1px 1px 1px #fff;
+}
+/* End of Navigation */
+
+/* Home */
+#logo {
+  font-family: "Katibeh";
+  font-size: 14rem;
+  position: absolute;
+  color: #fff;
+  word-wrap: break-word;
+  text-align: center;
+  text-shadow: 2px 2px 2px gold;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+/* End of Home */
+
+/* Menu */
+#menu {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  justify-content: center;
+}
+
+.menu-options {
+  background-color: rgba(255, 0, 0, 0.603);
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 12rem;
+  margin: 1rem;
+}
+
+.menu-options:active,
+.menu-options:focus,
+.menu-options:hover {
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  background-color: black;
+  position: absolute;
+  top: 15%;
+  margin-top: 5rem;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.menu-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  overflow: scroll;
+}
+
+.menu-body::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-items {
+  padding: 1.5rem;
+  margin: 0.25rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 16px;
+}
+
+/* End of Menu */
+
+/* Events */
+#event-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+#event-body::-webkit-scrollbar {
+  display: none;
+}
+
+#recurring-events {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a.event {
+  width: 400px;
+  height: 100%;
+  margin: 1rem;
+  font-family: "Raleway";
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  position: relative;
+  align-items: flex-;
+}
+
+.event-title {
+  font-size: 18px;
+  margin-top: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.arrow {
+  visibility: hidden;
+  padding-left: 10px;
+}
+
+.event-description {
+  font-size: 18px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.event-image {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.event:hover {
+  cursor: pointer;
+}
+
+.event:hover::after {
+  width: 400px;
+}
+
+.event:hover .event-image {
+  transform: scale(1.1);
+  filter: blur(0.5rem);
+  opacity: 0.5;
+}
+
+.event:hover .event-title {
+  width: 100%;
+  transition: width 1.5s 0.5s;
+  color: red;
+  margin-top: 1.5rem;
+}
+
+.event:hover .arrow {
+  visibility: visible;
+}
+
+.event:hover .event-description {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s 1s;
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  width: 70%;
+}
+
+#calendar {
+  width: 80%;
+  height: 30%;
+}
+
+#google-calendar {
+  width: 80%;
+}
+/* End of Events */
+
+/* Get to Know Us */
+#about-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+#about-body::-webkit-scrollbar {
+  display: none;
+}
+
+#about-images {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-images {
+  width: 50%;
+  margin: 1rem;
+}
+
+#about-paragraph {
+  width: 100%;
+  padding: 2rem;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+#about-paragraph p {
+  padding: 1rem;
+}
+/* End of Get to Know Us */
+
+/* Visit Us */
+#visit-display {
+  height: 70vh;
+}
+#visit-body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+#visit-body::-webkit-scrollbar {
+  display: none;
+}
+
+#contact-info,
+#contact-form {
+  width: 50%;
+  padding: 2rem;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-method {
+  font-family: "Raleway";
+  padding: 1rem;
+}
+
+.contact-method i {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.contact-method i:hover {
+  color: red;
+}
+
+.contact-method h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-method p,
+.contact-method a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-method a:hover {
+  color: red;
+}
+
+.form {
+  font-size: 20px;
+}
+
+#form-submit {
+  margin: 0;
+}
+
+.fab {
+  font-size: 34px;
+}
+/* End of Visit Us */
+
+/* Responsive Styles */
+@media (max-width: 1132px) {
+  #logo {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #about-paragraph {
+    font-size: 15px;
+  }
+  #logo {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  a.nav-link {
+    font-size: 20px;
+  }
+  .menu-body {
+    justify-content: flex-start;
+  }
+  #about-header,
+  #visit-header {
+    font-size: 3rem;
+  }
+  #about-paragraph {
+    width: 100%;
+  }
+  #about-images {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu-options {
+    font-size: 20px;
+    width: 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #visit-header {
+    font-size: 2rem;
+  }
+  #contact-info,
+  #contact-form {
+    width: 100%;
+    padding: 1rem;
+  }
+  #logo {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #logo {
+    font-size: 3rem;
+  }
+  .menu-options {
+    font-size: 18px;
+    width: 8rem;
+  }
+}
+/* End of Responsive Styles */

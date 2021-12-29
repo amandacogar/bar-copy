@@ -1,0 +1,34 @@
+{
+    "options": [
+        {
+            "item": "Mojito",
+            "price": 24,
+            "description": "Minty with vodka I think"
+        },
+        {
+            "item": "Margarita",
+            "price": 24,
+            "description": "Tequila and something that isn't"
+        },
+        {
+            "item": "Mojito",
+            "price": 24,
+            "description": "Minty with vodka I think"
+        },
+        {
+            "item": "Margarita",
+            "price": 24,
+            "description": "Tequila and something that isn't"
+        },
+        {
+            "item": "Mojito",
+            "price": 24,
+            "description": "Minty with vodka I think"
+        },
+        {
+            "item": "Margarita",
+            "description": "Tequila and something that isn't",
+            "price": 24
+        }
+    ]
+}
