@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Container, Form, Button } from "react-bootstrap";
+import { Image, Container } from "react-bootstrap";
 
 function VisitUs() {
   const handleSubmit = (e) => {};
@@ -22,8 +22,8 @@ function VisitUs() {
                 <h4>
                   <i class="fas fa-map-marker-alt"></i>Address
                 </h4>
-                <a href="https://goo.gl/maps/j9hvVi6Gv7sKeWAb7">
-                  123 Easy St, Maple Valley, WA, 98038
+                <a href="https://goo.gl/maps/W4R2u2UpK69HbmBj6">
+                  123 Easy St, Seattle, WA, 98109
                 </a>
               </div>
               <div className="contact-method">
@@ -53,11 +53,12 @@ function VisitUs() {
             </div>
             <div id="contact-form">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.226967469255!2d-122.04809468402252!3d47.38800427917077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490605d71a36143%3A0x404e0204ec6bf85!2sThe%20Lost%20Dutchman%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1640752856930!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.41616050157!2d-122.48214609026915!3d47.612943184978924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1641708439398!5m2!1sen!2sus"
                 width="600"
                 height="450"
+                allowfullscreen=""
                 loading="lazy"
-                title="Map"
+                title="map"
               ></iframe>
             </div>
           </div>

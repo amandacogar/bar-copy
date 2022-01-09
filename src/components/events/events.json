@@ -1,27 +1,27 @@
 {
     "events": [
         {
-            "title": "Trivia Tuesdays",
+            "title": "Event Example 1",
             "image": "https://images.unsplash.com/photo-1562049070-7e003d30a3d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80",
-            "description": "Play trivia with everyone on Tuesday nights. Play trivia with everyone on Tuesday nights. Play trivia with everyone on Tuesday nights. Play trivia with everyone on Tuesday nights.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "link": "https://facebook.com"
         },
         {
-            "title": "Dart Tournament Thursdays",
+            "title": "Event Example 2",
             "image": "https://images.unsplash.com/photo-1619349461509-5371f39e4062?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            "description": "Play Darts in a tournament on Thursdays. Play Darts in a tournament on Thursdays. Play Darts in a tournament on Thursdays. Play Darts in a tournament on Thursdays.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "link": "https://facebook.com"
         },
         {
-            "title": "Karaoke Fridays",
+            "title": "Event Example 3",
             "image": "https://images.unsplash.com/photo-1560297035-0ed84c4175f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            "description": "Sing karaoke with your friends on Friday nights. Sing karaoke with your friends on Friday nights. Sing karaoke with your friends on Friday nights. Sing karaoke with your friends on Friday nights.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "link": "https://facebook.com"
         },
         {
-            "title": "Live Music Saturdays",
+            "title": "Event Example 4",
             "image": "https://images.unsplash.com/photo-1541871115-2c9d5d6367bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            "description": "Listen to live bands and dance along on Saturdays. Listen to live bands and dance along on Saturdays. Listen to live bands and dance along on Saturdays.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "link": "https://facebook.com"
         }
     ]

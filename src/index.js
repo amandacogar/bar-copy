@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./styles/index.css";
 import "./styles/App.css";
 import App from "./App";
 import Home from "./components/home";
@@ -17,7 +16,7 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
         <Route path="" element={<Home />} />
         <Route path="get-to-know-us" element={<GetToKnowUs />} />
-        <Route path="menu" element={<Menu />} />
+        <Route path="get-to-know-us" element={<Menu />} />
         <Route path="events" element={<Events />} />
         <Route path="visit-us" element={<VisitUs />} />
       </Route>
