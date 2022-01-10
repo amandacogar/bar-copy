@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
         <Route path="" element={<Home />} />
         <Route path="get-to-know-us" element={<GetToKnowUs />} />
-        <Route path="get-to-know-us" element={<Menu />} />
+        <Route path="menu" element={<Menu />} />
         <Route path="events" element={<Events />} />
         <Route path="visit-us" element={<VisitUs />} />
       </Route>
