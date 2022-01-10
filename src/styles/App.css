@@ -338,12 +338,16 @@ iframe {
 #contact-info,
 #contact-form {
   width: 50%;
-  padding: 2rem;
 }
 
 #contact-info {
   display: flex;
   flex-direction: column;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+#contact-form {
+  padding: 2rem;
 }
 
 .contact-method {

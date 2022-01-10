@@ -1,33 +1,33 @@
 {
     "options": [
         {
-            "item": "Mojito",
+            "item": "Drink Example",
             "price": 24,
-            "description": "Minty with vodka I think"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore"
         },
         {
-            "item": "Margarita",
+            "item": "Drink Example",
             "price": 24,
-            "description": "Tequila and something that isn't"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore"
         },
         {
-            "item": "Mojito",
+            "item": "Drink Example",
             "price": 24,
-            "description": "Minty with vodka I think"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore"
         },
         {
-            "item": "Margarita",
+            "item": "Drink Example",
             "price": 24,
-            "description": "Tequila and something that isn't"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore"
         },
         {
-            "item": "Mojito",
+            "item": "Drink Example",
             "price": 24,
-            "description": "Minty with vodka I think"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore"
         },
         {
-            "item": "Margarita",
-            "description": "Tequila and something that isn't",
+            "item": "Drink Example",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore",
             "price": 24
         }
     ]
