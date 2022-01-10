@@ -271,24 +271,9 @@ a.event {
   height: 30%;
 }
 
-#google-calendar {
-  width: 80%;
-}
-
-.calendar {
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.calendar-navigate,
-.calendar-title,
-.day-name,
-.day {
-  color: #fff;
-}
-
-.calendar-footer {
-  visibility: hidden;
+iframe {
+  width: 100%;
+  background-color: black;
 }
 /* End of Events */
 

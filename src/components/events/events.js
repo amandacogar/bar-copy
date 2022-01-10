@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Image, Container } from "react-bootstrap";
 import events from "./events.json";
 import EventList from "./event-list.js";
-import Cal from "./calendar.js";
 
 function Events() {
   const [data, setData] = useState(events.events);
@@ -25,7 +24,13 @@ function Events() {
               ))}
             </div>
             <div id="calendar">
-              <Cal />
+              <iframe
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&showTz=0&src=bXNhbWFuZGFjb2dhckBnbWFpbC5jb20&color=%23039BE5"
+                width="800"
+                height="600"
+                frameborder="0"
+                title="calendar-api"
+              ></iframe>
             </div>
           </div>
         </Container>
