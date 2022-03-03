@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./styles/App.css";
+import "./App.css";
 import App from "./App";
 import Home from "./components/home";
 import Events from "./components/events/events";
-import GetToKnowUs from "./components/gettoknowus";
+import GetToKnowUs from "./components/about/gettoknowus";
 import Menu from "./components/menu/menu";
 import VisitUs from "./components/visitus";
 import reportWebVitals from "./tests/reportWebVitals";

@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Rosario:wght@200;300;400;500;600;700&display=swap");
+
+/* Common Styles */
+html {
+  scroll-behavior: smooth;
+  font-family: "Rosario", sans-serif;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing-image {
+  height: 100%;
+  width: 100%;
+}
+
+.page-heading {
+  font-size: 4rem;
+  font-family: "Rosario";
+  text-align: center;
+  padding: 0.5rem;
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+}
+/* End of Common Styles */
+
+/* Navigation */
+.nav-transparent {
+  background-color: none;
+}
+
+.pa-fixed-header {
+  background-color: black;
+}
+
+#logo {
+  font-family: "Allison";
+  font-size: 5rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(194, 69, 69);
+  margin-right: 0;
+  padding: 0;
+}
+
+.me-auto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+a.nav-link {
+  font-size: 18px;
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-family: "Rosario";
+  color: rgba(255, 255, 255, 0.733);
+  font-weight: 200;
+  padding: 0;
+}
+
+a.nav-link:hover {
+  color: white;
+}
+
+a.nav-link:active,
+a.nav-link:focus {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+  color: rgba(255, 255, 255, 0.733);
+}
+
+/* End of Navigation */
+
+/* Footer */
+.fab {
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 40px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.fab:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+}
+/* End of Footer */
+
+/* Home */
+#home {
+  height: 100%;
+}
+#home-frame {
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1588083066783-8828e623bad7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: cover;
+  flex-wrap: wrap;
+}
+
+a.btn-primary {
+  background: rgba(0, 0, 0, 0.281);
+  border-color: white;
+  width: 250px;
+  height: 50px;
+  line-height: 2;
+  border-radius: 15px;
+}
+
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+  outline: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+  transition: 0.4s ease;
+}
+
+#description-frame {
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.733);
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#description-frame p {
+  margin: 1rem;
+  width: 60%;
+}
+
+.description-line {
+  width: 80%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.733);
+  margin: 2rem;
+}
+
+#home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* End of Home */
+
+/* Menu */
+#menu {
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+#menu-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.menu-options {
+  background-color: rgba(165, 22, 22, 0.74);
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  text-transform: lowercase;
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 12rem;
+  margin: 1rem;
+  letter-spacing: 2px;
+  font-family: "Rosario";
+}
+
+.menu-options:active,
+.menu-options:focus,
+.menu-options:hover {
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: black;
+  top: 20%;
+  margin-top: 5rem;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#menu-header {
+  text-align: center;
+  margin: 1rem;
+}
+
+#menu-header h4 {
+  font-family: "Allison";
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+#menu-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-line {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+.menu-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#menu-page-heading {
+  font-size: 48px;
+  color: white;
+}
+
+.menu-items {
+  padding: 1.5rem;
+  margin: 0.25rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-family: "Rosario";
+}
+
+.title {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 16px;
+}
+
+/* End of Menu */
+
+/* Events */
+#events {
+  background-image: url("https://images.unsplash.com/photo-1562259934-6e09f6a89a98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  padding: 2rem;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: black;
+  margin-top: 6rem;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#event-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a.event {
+  width: 400px;
+  height: 450px;
+  margin: 1rem;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.event-info {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.event-title {
+  font-size: 22px;
+  margin-top: 1.2rem;
+  letter-spacing: 1px;
+  width: 100%;
+  transition: width 0.3s;
+  font-family: "Rosario", sans-serif;
+  letter-spacing: 3px;
+}
+
+.event-description {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 1.5rem;
+  font-weight: 200;
+}
+
+.event-image {
+  width: 400px;
+  height: 360px;
+  transition: all 0.5s;
+}
+
+#dark-layer-event {
+  width: 450px;
+  height: 460px;
+  background-color: rgba(0, 0, 0, 0.582);
+  position: absolute;
+}
+
+.event:hover {
+  cursor: pointer;
+}
+
+.event:hover::after {
+  width: 400px;
+}
+
+.event:hover .event-image {
+  transform: scale(1.1);
+  filter: blur(0.5rem);
+  opacity: 1;
+}
+
+#dark-layer-event:hover {
+  opacity: 0;
+  transition: opacity 1.1s ease;
+  transform: scale(1.1);
+}
+
+.event:hover .event-title {
+  width: 100%;
+  transition: width 1.5s 0.5s;
+  margin-top: 1.5rem;
+}
+
+.event:hover {
+  transition: opacity 0.7s 0.7s ease;
+}
+
+.event-btn {
+  background-color: rgba(165, 22, 22, 0.74);
+  outline: none;
+  border: 1px solid white;
+}
+/* End of Events */
+
+/* Get to Know Us */
+#about {
+  height: 100%;
+}
+#about-frame-1 {
+  width: 100vw;
+  height: 90vh;
+}
+
+#about-photo {
+  height: 100%;
+  width: 100%;
+}
+
+#dark-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.678);
+  z-index: 1;
+}
+
+#about-frame-2 {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.733);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.about-images {
+  width: 300px;
+  height: 520px;
+  margin: 0.8rem;
+}
+
+.about-p {
+  letter-spacing: 1px;
+  margin: 0.8rem;
+  max-width: 700px;
+  padding: 3rem;
+  text-align: center;
+}
+/* End of Get to Know Us */
+
+/* Visit Us */
+#visit {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+#visit-body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+#visit-photo {
+  height: 100%;
+}
+
+#dark-cast {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.contact-method {
+  font-weight: 200;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 1rem;
+}
+
+.contact-method i {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.contact-method p,
+.contact-method a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* End of Visit Us */
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .about-images {
+    width: 247px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-body {
+    justify-content: flex-start;
+  }
+  #about-header,
+  #visit-header {
+    font-size: 3rem;
+  }
+  .about-images {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu-options {
+    font-size: 20px;
+    width: 10rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #about-frame-1 {
+    background-image: url("https://images.unsplash.com/photo-1529604278261-8bfcdb00a7b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-size: cover;
+  }
+  #about-photo {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  #visit-header {
+    font-size: 2rem;
+  }
+  #contact-info {
+    width: 100%;
+    padding: 1rem;
+  }
+  #logo {
+    font-size: 4rem;
+    width: 100%;
+  }
+  .me-auto {
+    flex-wrap: wrap;
+  }
+  #home-frame {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  a.btn-primary {
+    margin: 2rem;
+  }
+  #description-frame {
+    flex-direction: column;
+  }
+  .about-info {
+    flex-direction: column;
+    margin: 0;
+  }
+  .about-images {
+    width: 300px;
+    height: 500px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu-options {
+    width: 10rem;
+    font-size: 18px;
+  }
+  #menu-page-heading {
+    font-size: 36px;
+    padding: 0;
+    letter-spacing: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu-options {
+    width: 8rem;
+  }
+  #menu-page-heading {
+    font-size: 32px;
+  }
+}
+/* End of Responsive Styles */
